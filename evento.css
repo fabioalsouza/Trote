@@ -1,0 +1,81 @@
+body { 
+    background-color:rgba(36, 71, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial, sans-serif;
+    padding: 10px;
+}
+.container {
+    background: white;
+    padding: 40px 50px 40px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    max-width: 400px;
+    flex-direction: column;
+    gap: 20px;
+}
+button {
+    background-color: rgba(255, 75, 43);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 18px 35px 18px 35px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+button:hover { /* efeito de expansão, troca de cor e transição do botao */
+    background-color: black;
+    transform: scale(1.1);
+    transition: 300ms ease;
+    transform: translateY(-3px);
+}
+.lista { 
+    list-style: none;
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+.lista li { /* linha sutil abaixo do texto da lista */
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 10px 0;
+    margin: auto; 
+}
+li {
+    padding-bottom: 10px; /* aumentar o espaço dentre as linhas abaixo do texto e  fonte*/
+}
+h1 { /* estilo do titulo */
+    color: rgba(36, 71, 133);
+    padding: 0px 5px 0px 5px;
+    font-weight: 700;
+    font-size: 35px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 25px 0px 0px 0px;
+}
+.texto-secundario { 
+    color: rgb(114, 114, 114);
+    text-align: center;
+    font-size: 15px;
+}
+.texto-terciario {
+    color: rgb(158, 158, 158);
+    text-align: center;
+    font-size: 14px;
+    padding: 5px 0px 0px 0px;
+}
+.subtitulo { /* estilo do texto abaixo da imagem */
+    color: rgb(58, 58, 58);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
